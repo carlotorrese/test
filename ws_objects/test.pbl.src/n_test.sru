@@ -17,7 +17,7 @@ public function integer f_base ();return 1
 
 end function
 
-public function integer f_new ();return 111
+public function integer f_new ();return 555
 end function
 
 on n_test.create
