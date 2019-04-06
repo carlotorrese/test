@@ -10,10 +10,14 @@ global n_test n_test
 
 forward prototypes
 public function integer f_base ()
+public function integer f_new ()
 end prototypes
 
 public function integer f_base ();return 1
 
+end function
+
+public function integer f_new ();return 999
 end function
 
 on n_test.create
